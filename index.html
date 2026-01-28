@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Tabs Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="tabs-section">
+    <h1>Internship Programs</h1>
+
+    <div class="tabs">
+        <button class="tab-btn active" onclick="openTab('tab1', this)">Overview</button>
+        <button class="tab-btn" onclick="openTab('tab2', this)">Benefits</button>
+        <button class="tab-btn" onclick="openTab('tab3', this)">Eligibility</button>
+
+    </div>
+
+    <div id="tab1" class="tab-content">
+        <p>This internship provides hands-on industry experience.</p>
+    </div>
+
+    <div id="tab2" class="tab-content">
+        <p>Certificate, mentorship, and skill development.</p>
+    </div>
+
+    <div id="tab3" class="tab-content">
+        <p>Open to students with basic programming knowledge.</p>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
